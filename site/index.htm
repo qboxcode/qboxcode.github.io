@@ -1,0 +1,114 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Qbox code</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Qbox first-principles molecular dynamics code">
+  <meta name="keywords" content="qboxcode qbox code quantum simulation first-principles molecular dynamics FPMD electronic structure">
+  <link rel="stylesheet" href="/css/qboxcode.css" type="text/css">
+  <link rel="icon" href="/favicon.ico">
+</head>
+
+<body>
+<div id="header">
+  <img src="/images/qbox_logo_white.png">
+</div>
+<div id="main_container">
+<div id="sidebar">
+  <p> <a href="/doc/">Documentation</a></p>
+</div>
+
+<div id="main">
+<h2>Qbox home page</h2>
+Welcome to qboxcode.org, home of the Qbox first-principles
+molecular dynamics code.
+<p>
+Qbox is a C++/MPI scalable parallel implementation of first-principles
+molecular dynamics (FPMD) based on the plane-wave, pseudopotential formalism.
+Qbox is designed for operation on large parallel computers. 
+</p>
+<p>
+<p>
+<!-- <mark>New</mark> -->
+<!-- Join us on Slack at <a href="https://qboxcode.slack.com">https://qboxcode.slack.com</a> 
+</p> -->
+<p>
+Qbox is available on github at
+<a href="https://github.com/qboxcode">https://github.com/qboxcode</a></p>
+<p>
+[2026-08-26] Version 1.79.0 is available, featuring improved geometry
+optimization algorithms. <br>
+<p>
+[2026-06-03] Version 1.78.6 is available. <br>
+<p>
+[2025-04-24] Version 1.78.4 is available. <br>
+<p>
+[2024-08-20] Version 1.78.2 is available. <br>
+Includes calculations of dipoles in arbitrary unit cells
+and improved accuracy of MLWF center positions in non-cubic cells.
+<p>
+
+Qbox features include First-Principles Molecular Dynamics in the presence of 
+arbitrary external electric fields, 
+range-separated and HSE hybrid density functionals and
+the BHandHLYP functional, the implementation of the B3LYP functional for
+spin-polarized systems, calculations of the partial charge/spin in 
+atom-centered spheres, and the option to execute arbitrary commands 
+at regular intervals during MD simulations.
+</p>
+<p>
+
+Qbox uses various types of pseudopotentials to represent electron-ion
+interactions. 
+
+The SG15 collection of Optimized Norm Conserving Vanderbilt (ONCV) pseudopotentials is available at 
+<a href="http://www.quantum-simulation.org/potentials">http://www.quantum-simulation.org/potentials</a>. The SG15 potentials were optimized to reproduce all-electron calculations
+with high accuracy. The potentials are described in 
+M. Schlipf and F. Gygi, Comput. Phys. Comm. <b>196</b>, 36-44 (2015)
+<a href="http://dx.doi.org/10.1016/j.cpc.2015.05.011">
+http://dx.doi.org/10.1016/j.cpc.2015.05.011</a>. 
+
+Other pseudopotentials (HSCV, BHS) are available at <a
+href="http://www.quantum-simulation.org/potentials/index.htm">
+http://quantum-simulation.org/potentials</a> 
+
+Pseudootentials from the pseudo-dojo collection
+<a href="http://www.pseudo-dojo.org">http://pseudo-dojo.org</a> can be used
+by translating them from UPF format to QSO format using the 
+<code>upf2qso</code> program provided in the Qbox distribution in the
+<code>util</code> directory.<p>
+</p>
+<h3>Code architecture</h3>
+The design of Qbox is discussed in the following 
+<a href="ibmr-52-01-Gygi.pdf">architecture paper</a>
+ (IBM J. Res. Dev. <bf>52</bf> p.137 (2008)).<p>
+
+<h3>Qbox output format</h3>
+Qbox output conforms to the XML Schema described at 
+<a href="http://www.quantum-simulation.org">http://www.quantum-simulation.org</a>. This format is supported by the NOMAD repository 
+<a href="https://repository.nomad-coe.eu">https://repository.nomad-coe.eu</a>
+<img src="images/NOMAD_Logo_small2.png" height="40" align="center">
+</p>
+
+<h3>Acknowledgement</h3>
+Qbox is developed and maintained at the University of California Davis. 
+Development is currently supported by a collaboration with the DOE 
+<img src="images/miccom-logo.png" height="20" align="bottom"> 
+Midwest Integrated Center for Computational Materials.
+Previous support was provided by 
+the U.S. Department of 
+Energy, Office of Basic Energy Sciences under grant DE-SC0008938.
+
+<!--
+<p>Send comments to 
+<a href="mailto:webmaster@qboxcode.org">
+		webmaster@qboxcode.org</a></p>
+-->
+</div> <!-- main -->
+
+<div id="footer">
+Copyright &copy; 2008-2026 qboxcode.org
+</div> <!-- footer -->
+</div> <!-- main_container -->
+</body>
+</html>

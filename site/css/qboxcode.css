@@ -1,0 +1,38 @@
+
+body
+ { margin: 10px; padding: 0;}
+
+h1, h2, h3, h4, h5, p, center, td, th, ul, dl, a, div
+ {font-family: Geneva, Arial, Helvetica, sans-serif;}
+
+code
+ { font-family: courier; }
+
+#container { position: relative; border: solid 1px; }
+
+#header { position: relative; height: 137px;
+  width: 100%; top: 0; left: 0; background: rgb(153,204,255);}
+#header_title { position: absolute; bottom: 20px;}
+#header img {position: absolute; top: 0; left: 0;}
+#header h1 { padding-left: 205px; padding-top: 0px; margin: 0;}
+#header h3 { padding-left: 205px; padding-top: 0px; margin: 0;}
+
+#thinheader { position: relative; height: 50px;
+  width: 100%; background: #add; top: 0; left: 0;}
+#thinheader_title { position: absolute; bottom: 5px;left: 20px;}
+#thinheader h3 { padding-left: 0; padding-top: 0px; margin: 0;}
+
+#sidebar { float: left; border: solid 1px;
+  width: 15%; margin-left: 5px; margin-right: 15px; padding: 10px;
+  margin-top: 15px; margin-bottom: 15 px; background: #eee;}
+
+#main { position: relative; float: left; width: 75%;
+        border-left: solid 1px black; padding-top: 0; padding-left: 10px;
+        margin-left: 0; margin-top: 15px; margin-bottom: 20px; }
+
+#footer { float: left; clear: both;
+width: 100%; text-align: center; font-size: small;
+padding-top: 5px; padding-bottom: 5px; margin-top: 5px; margin-bottom: 5px;
+background: #eee; border: solid 1px;}
+
+#code { clear: left; width: 75%; padding: 20px; margin: 5px; border: solid 1px; background: #ffc; font-family: courier; white-space: pre;}
