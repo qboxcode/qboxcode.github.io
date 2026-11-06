@@ -3,8 +3,6 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-  `Back to the Qbox home page </>`_
-
 .. image:: qbox_logo.png
    :target: /
 
